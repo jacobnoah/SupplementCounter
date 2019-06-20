@@ -16,7 +16,7 @@ public class Main extends Application {
 			
 			// get an FXML loader and read in the fxml code
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("/SupplementCounterWindow.fxml"));
+			loader.setLocation(Main.class.getResource("/SupplementCounterWindow.fxml")); 
 			AnchorPane mainLayout = (AnchorPane)loader.load();
 			
 			Image icon = new Image("application/pillbottle.jpg");
